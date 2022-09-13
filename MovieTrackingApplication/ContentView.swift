@@ -16,10 +16,9 @@ struct ContentView: View {
         
         
         
-        
-        Text("Home")
-            
-            
+        VStack {
+            Text("")
+        }
     }
 }
 
