@@ -29,7 +29,7 @@ struct RecommendMovies: View {
                     .padding()
                     .frame(width: 250, height: 125)
                     .background(Circle().fill(Color.green).shadow(radius: 3))
-                
+              
                 
                 
             }
