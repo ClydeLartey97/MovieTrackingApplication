@@ -35,24 +35,24 @@ struct ContentView: View {
                     .fixedSize(horizontal: false, vertical: true)
                     .multilineTextAlignment(.center)
                     .padding()
-                    .frame(width: 300, height: 200)
-                    .background(Rectangle().fill(Color.white).shadow(radius: 3))
+                    .frame(width: 400, height: 200)
+                    .background(Circle().fill(Color.green).shadow(radius: 3))
 
                 
                 Text("Movie 2")
                     .fixedSize(horizontal: false, vertical: true)
                     .multilineTextAlignment(.center)
                     .padding()
-                    .frame(width: 300, height: 200)
-                    .background(Rectangle().fill(Color.white).shadow(radius: 3))
+                    .frame(width: 400, height: 200)
+                    .background(Circle().fill(Color.blue).shadow(radius: 3))
 
                 
                 Text("Movie 3")
                     .fixedSize(horizontal: false, vertical: true)
                     .multilineTextAlignment(.center)
                     .padding()
-                    .frame(width: 300, height: 200)
-                    .background(Rectangle().fill(Color.white).shadow(radius: 3))
+                    .frame(width: 400, height: 200)
+                    .background(Circle().fill(Color.red).shadow(radius: 3))
 
     
             }
@@ -61,6 +61,7 @@ struct ContentView: View {
             Spacer()
             Spacer()
              
+            
                 
             
                 
