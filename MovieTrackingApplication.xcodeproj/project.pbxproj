@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AFB1391328D1DDB400A2296E /* Homepage view.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFB1391228D1DDB400A2296E /* Homepage view.swift */; };
+		AFB1391728D1DE2400A2296E /* RecommendMovies.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFB1391628D1DE2400A2296E /* RecommendMovies.swift */; };
 		AFF0787A28D07C3F000EE539 /* MovieTrackingApplicationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFF0787928D07C3F000EE539 /* MovieTrackingApplicationApp.swift */; };
 		AFF0787C28D07C3F000EE539 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFF0787B28D07C3F000EE539 /* ContentView.swift */; };
 		AFF0787E28D07C41000EE539 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFF0787D28D07C41000EE539 /* Assets.xcassets */; };
@@ -34,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AFB1391228D1DDB400A2296E /* Homepage view.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Homepage view.swift"; sourceTree = "<group>"; };
+		AFB1391628D1DE2400A2296E /* RecommendMovies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendMovies.swift; sourceTree = "<group>"; };
 		AFF0787628D07C3F000EE539 /* MovieTrackingApplication.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MovieTrackingApplication.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFF0787928D07C3F000EE539 /* MovieTrackingApplicationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieTrackingApplicationApp.swift; sourceTree = "<group>"; };
 		AFF0787B28D07C3F000EE539 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -96,6 +100,8 @@
 			children = (
 				AFF0787928D07C3F000EE539 /* MovieTrackingApplicationApp.swift */,
 				AFF0787B28D07C3F000EE539 /* ContentView.swift */,
+				AFB1391228D1DDB400A2296E /* Homepage view.swift */,
+				AFB1391628D1DE2400A2296E /* RecommendMovies.swift */,
 				AFF0787D28D07C41000EE539 /* Assets.xcassets */,
 				AFF0787F28D07C41000EE539 /* Preview Content */,
 			);
@@ -257,6 +263,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AFB1391328D1DDB400A2296E /* Homepage view.swift in Sources */,
+				AFB1391728D1DE2400A2296E /* RecommendMovies.swift in Sources */,
 				AFF0787C28D07C3F000EE539 /* ContentView.swift in Sources */,
 				AFF0787A28D07C3F000EE539 /* MovieTrackingApplicationApp.swift in Sources */,
 			);
