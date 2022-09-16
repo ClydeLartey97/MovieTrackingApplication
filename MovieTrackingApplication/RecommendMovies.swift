@@ -9,12 +9,16 @@ import SwiftUI
 
 struct RecommendMovies: View {
     var body: some View {
+        
+        
         VStack {
             Text("Recommend Movies")
                 .padding(30)
                 Spacer()
             
             
+          
+         
             HStack (spacing:0){
                 Text("Movie 1")
                     .fixedSize(horizontal: false, vertical: true)
@@ -33,6 +37,8 @@ struct RecommendMovies: View {
                 
                 
             }
+            
+            
             Spacer()
             Spacer()
         }
