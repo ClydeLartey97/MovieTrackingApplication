@@ -9,13 +9,23 @@ import SwiftUI
 
 struct MainPanel: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+
         
         
         VStack {
             Text("About this film")
                 .padding(35)
                 Spacer()
+            
+            
+            Text("Insert Text")
+                .fixedSize(horizontal: false, vertical: true)
+                .multilineTextAlignment(.center)
+                .padding()
+                .frame(width: 350, height: 750)
+                .background(Rectangle().fill(Color.white).shadow(radius: 3))
+                Spacer()
+            
             }
     }
 }
