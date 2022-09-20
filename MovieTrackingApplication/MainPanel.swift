@@ -22,9 +22,22 @@ struct MainPanel: View {
                     .fixedSize(horizontal: false, vertical: true)
                     .multilineTextAlignment(.center)
                     .padding()
-                    .frame(width: 350, height: 750)
+                    .frame(width: 350, height: 187.5)
+                    .background(Rectangle().fill(Color.white).shadow(radius: 3))
+                Text("Insert Text")
+                    .fixedSize(horizontal: false, vertical: true)
+                    .multilineTextAlignment(.center)
+                    .padding()
+                    .frame(width: 350, height: 187.5)
+                    .background(Rectangle().fill(Color.white).shadow(radius: 3))
+                Text("Insert Text")
+                    .fixedSize(horizontal: false, vertical: true)
+                    .multilineTextAlignment(.center)
+                    .padding()
+                    .frame(width: 350, height: 187.5)
                     .background(Rectangle().fill(Color.white).shadow(radius: 3))
                     Spacer()
+                
             }
            
             

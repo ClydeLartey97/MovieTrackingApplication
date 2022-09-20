@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		AF4AA1E528D49D3E00C63C51 /* MainPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4AA1E428D49D3E00C63C51 /* MainPanel.swift */; };
+		AF5FAF3328D9AD890097EAFE /* MiniPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF5FAF3228D9AD890097EAFE /* MiniPanel.swift */; };
 		AFB1391328D1DDB400A2296E /* Homepage view.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFB1391228D1DDB400A2296E /* Homepage view.swift */; };
 		AFB1391728D1DE2400A2296E /* RecommendMovies.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFB1391628D1DE2400A2296E /* RecommendMovies.swift */; };
 		AFF0787A28D07C3F000EE539 /* MovieTrackingApplicationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFF0787928D07C3F000EE539 /* MovieTrackingApplicationApp.swift */; };
@@ -38,6 +39,7 @@
 
 /* Begin PBXFileReference section */
 		AF4AA1E428D49D3E00C63C51 /* MainPanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPanel.swift; sourceTree = "<group>"; };
+		AF5FAF3228D9AD890097EAFE /* MiniPanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniPanel.swift; sourceTree = "<group>"; };
 		AFB1391228D1DDB400A2296E /* Homepage view.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Homepage view.swift"; sourceTree = "<group>"; };
 		AFB1391628D1DE2400A2296E /* RecommendMovies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendMovies.swift; sourceTree = "<group>"; };
 		AFF0787628D07C3F000EE539 /* MovieTrackingApplication.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MovieTrackingApplication.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -105,6 +107,7 @@
 				AFB1391228D1DDB400A2296E /* Homepage view.swift */,
 				AFB1391628D1DE2400A2296E /* RecommendMovies.swift */,
 				AF4AA1E428D49D3E00C63C51 /* MainPanel.swift */,
+				AF5FAF3228D9AD890097EAFE /* MiniPanel.swift */,
 				AFF0787D28D07C41000EE539 /* Assets.xcassets */,
 				AFF0787F28D07C41000EE539 /* Preview Content */,
 			);
@@ -271,6 +274,7 @@
 				AFF0787C28D07C3F000EE539 /* ContentView.swift in Sources */,
 				AF4AA1E528D49D3E00C63C51 /* MainPanel.swift in Sources */,
 				AFF0787A28D07C3F000EE539 /* MovieTrackingApplicationApp.swift in Sources */,
+				AF5FAF3328D9AD890097EAFE /* MiniPanel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
