@@ -9,14 +9,17 @@ import SwiftUI
 
 struct FavouritesList: View {
     var body: some View {
-        List {
-            Text("insert film").frame(width: 200, height: 50)
-            Text("insert film").frame(width: 200, height: 50)
-        }.padding(10)
+        VStack {
+            Text("Favourite Films list")
+            Spacer()
+            
+            List {
+                Text("Film")
+            }
+            
+        }
     }
-        
 }
-
 
 struct FavouritesList_Previews: PreviewProvider {
     static var previews: some View {
