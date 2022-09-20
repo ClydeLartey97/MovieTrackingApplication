@@ -9,7 +9,31 @@ import SwiftUI
 
 struct MiniPanel: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        
+        VStack {
+            
+            Button("Return to Homepage", action: {
+                
+            })
+            Spacer()
+            
+            
+            Text("Insert Trailer")
+                .fixedSize(horizontal: false, vertical: true)
+                .multilineTextAlignment(.center)
+                .padding()
+                .frame(width: 350, height: 187.5)
+                .background(Rectangle().fill(Color.white).shadow(radius: 3))
+            Text("Insert Description")
+                .fixedSize(horizontal: false, vertical: true)
+                .multilineTextAlignment(.center)
+                .padding()
+                .frame(width: 350, height: 187.5)
+                .background(Rectangle().fill(Color.white).shadow(radius: 3))
+                Spacer()
+            
+            
+        }
     }
 }
 

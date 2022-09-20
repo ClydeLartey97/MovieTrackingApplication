@@ -18,25 +18,42 @@ struct MainPanel: View {
                 Spacer()
             
             VStack {
-                Text("Insert Text")
+                Text("Rate this film")
+                HStack {
+                    Button("☆", action : {
+                    })
+                    Button("☆", action : {
+                    })
+                    Button("☆", action : {
+                    })
+                    Button("☆", action : {
+                    })
+                    Button("☆", action : {
+                    })
+                    
+                    
+                }
+                    
+                Text("Insert Movie Poster and trailer")
                     .fixedSize(horizontal: false, vertical: true)
                     .multilineTextAlignment(.center)
                     .padding()
                     .frame(width: 350, height: 187.5)
                     .background(Rectangle().fill(Color.white).shadow(radius: 3))
-                Text("Insert Text")
+                Text("Insert Description")
                     .fixedSize(horizontal: false, vertical: true)
                     .multilineTextAlignment(.center)
                     .padding()
                     .frame(width: 350, height: 187.5)
                     .background(Rectangle().fill(Color.white).shadow(radius: 3))
-                Text("Insert Text")
+                Text("Insert Movie cast")
                     .fixedSize(horizontal: false, vertical: true)
                     .multilineTextAlignment(.center)
                     .padding()
                     .frame(width: 350, height: 187.5)
                     .background(Rectangle().fill(Color.white).shadow(radius: 3))
                     Spacer()
+                
                 
             }
            
