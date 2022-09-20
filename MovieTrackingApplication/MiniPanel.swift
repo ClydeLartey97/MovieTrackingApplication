@@ -15,9 +15,13 @@ struct MiniPanel: View {
             Button("Return to Homepage", action: {
                 
             })
-            Spacer()
+
             
             
+            
+            Form {
+                Text("User Description of films")
+            }
             Text("Insert Trailer")
                 .fixedSize(horizontal: false, vertical: true)
                 .multilineTextAlignment(.center)

@@ -13,12 +13,15 @@ struct MainPanel: View {
         
         
         VStack {
+            
             Text("About this film")
                 .padding(35)
                 Spacer()
             
             VStack {
+            
                 Text("Rate this film")
+                    .foregroundColor(.blue)
                 HStack {
                     Button("☆", action : {
                     })
