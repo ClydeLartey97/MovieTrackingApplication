@@ -15,6 +15,7 @@ struct MainPanel: View {
         VStack {
             
             Text("About this film")
+                .font(.largeTitle)
                 .padding(35)
                 Spacer()
             

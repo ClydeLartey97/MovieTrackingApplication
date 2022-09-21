@@ -14,42 +14,54 @@ struct ContentView: View {
  
         
         VStack {
-            Text("Homepage")
-                .padding(35)
-                Spacer()
-            
-            
             HStack {
-                Text("Watchlist Section")
-                    .padding(35)
-                    .foregroundColor(.orange)
-                Spacer()
+                Button("☰", action : {
+                })
+                .font(.largeTitle)
+                .padding(45)
                 
+                Text("Homepage")
+                    .font(.largeTitle)
+                    .padding(35)
+                    Spacer()
             }
             
-            VStack {
-                Text("Movie 1")
-                    .fixedSize(horizontal: false, vertical: true)
-                    .multilineTextAlignment(.center)
-                    .padding()
-                    .frame(width: 400, height: 200)
-                    .background(Circle().fill(Color.green).shadow(radius: 3))
-
+            
+            
+            Form {
+                HStack {
+                    Text("Watchlist Section")
+                        .padding(35)
+                        .foregroundColor(.orange)
+                    Spacer()
+                    
+                }
                 
-                Text("Movie 2")
-                    .fixedSize(horizontal: false, vertical: true)
-                    .multilineTextAlignment(.center)
-                    .padding()
-                    .frame(width: 400, height: 200)
-                    .background(Circle().fill(Color.blue).shadow(radius: 3))
+                VStack {
+                    Text("Movie 1")
+                        .fixedSize(horizontal: false, vertical: true)
+                        .multilineTextAlignment(.center)
+                        .padding()
+                        .frame(width: 400, height: 200)
+                        .background(Circle().fill(Color.green).shadow(radius: 3))
 
-                
-                Text("Movie 3")
-                    .fixedSize(horizontal: false, vertical: true)
-                    .multilineTextAlignment(.center)
-                    .padding()
-                    .frame(width: 400, height: 200)
-                    .background(Circle().fill(Color.red).shadow(radius: 3))
+                    
+                    Text("Movie 2")
+                        .fixedSize(horizontal: false, vertical: true)
+                        .multilineTextAlignment(.center)
+                        .padding()
+                        .frame(width: 400, height: 200)
+                        .background(Circle().fill(Color.blue).shadow(radius: 3))
+
+                    
+                    Text("Movie 3")
+                        .fixedSize(horizontal: false, vertical: true)
+                        .multilineTextAlignment(.center)
+                        .padding()
+                        .frame(width: 400, height: 200)
+                        .background(Circle().fill(Color.red).shadow(radius: 3))
+            }
+           
 
     
             }

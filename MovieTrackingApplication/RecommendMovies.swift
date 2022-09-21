@@ -13,6 +13,7 @@ struct RecommendMovies: View {
         
         VStack {
             Text("Recommend Movies")
+                .font(.largeTitle)
                 .padding(30)
                 Spacer()
             

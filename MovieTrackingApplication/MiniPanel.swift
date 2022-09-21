@@ -13,8 +13,8 @@ struct MiniPanel: View {
         VStack {
             
             Button("Return to Homepage", action: {
-                
             })
+            .font(.largeTitle)
 
             
             
@@ -22,6 +22,7 @@ struct MiniPanel: View {
             Form {
                 Text("User Description of films")
             }
+
             Text("Insert Trailer")
                 .fixedSize(horizontal: false, vertical: true)
                 .multilineTextAlignment(.center)
