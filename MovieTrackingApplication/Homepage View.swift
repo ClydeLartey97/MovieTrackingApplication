@@ -18,11 +18,11 @@ struct ContentView: View {
                 Button("☰", action : {
                 })
                 .font(.largeTitle)
-                .padding(45)
+                .padding(47.5)
                 
                 Text("Homepage")
                     .font(.largeTitle)
-                    .padding(35)
+                    
                     Spacer()
             }
             
