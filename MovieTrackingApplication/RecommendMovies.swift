@@ -19,24 +19,26 @@ struct RecommendMovies: View {
             
             
           
-         
-            HStack (spacing:0){
-                Text("Movie 1")
-                    .fixedSize(horizontal: false, vertical: true)
-                    .multilineTextAlignment(.center)
-                    .padding()
-                    .frame(width: 250, height: 125)
-                    .background(Circle().fill(Color.green).shadow(radius: 3))
-                
-                Text("Movie 1")
-                    .fixedSize(horizontal: false, vertical: true)
-                    .multilineTextAlignment(.center)
-                    .padding()
-                    .frame(width: 250, height: 125)
-                    .background(Circle().fill(Color.green).shadow(radius: 3))
-              
-                
-                
+            Form {
+                HStack (spacing:0){
+                    Text("Movie 1")
+                        .fixedSize(horizontal: false, vertical: true)
+                        .multilineTextAlignment(.center)
+                        .padding()
+                        .frame(width: 250, height: 125)
+                        .background(Circle().fill(Color.green).shadow(radius: 3))
+                    
+                    Text("Movie 1")
+                        .fixedSize(horizontal: false, vertical: true)
+                        .multilineTextAlignment(.center)
+                        .padding()
+                        .frame(width: 250, height: 125)
+                        .background(Circle().fill(Color.green).shadow(radius: 3))
+                  
+                    
+                    
+                }
+
             }
             
             

@@ -21,21 +21,24 @@ struct MiniPanel: View {
             
             Form {
                 Text("User Description of films")
+                
+                
+                Text("Insert Trailer")
+                    .fixedSize(horizontal: false, vertical: true)
+                    .multilineTextAlignment(.center)
+                    .padding()
+                    .frame(width: 350, height: 187.5)
+                    .background(Rectangle().fill(Color.white).shadow(radius: 3))
+                Text("Insert Description")
+                    .fixedSize(horizontal: false, vertical: true)
+                    .multilineTextAlignment(.center)
+                    .padding()
+                    .frame(width: 350, height: 187.5)
+                    .background(Rectangle().fill(Color.white).shadow(radius: 3))
+                    Spacer()
             }
 
-            Text("Insert Trailer")
-                .fixedSize(horizontal: false, vertical: true)
-                .multilineTextAlignment(.center)
-                .padding()
-                .frame(width: 350, height: 187.5)
-                .background(Rectangle().fill(Color.white).shadow(radius: 3))
-            Text("Insert Description")
-                .fixedSize(horizontal: false, vertical: true)
-                .multilineTextAlignment(.center)
-                .padding()
-                .frame(width: 350, height: 187.5)
-                .background(Rectangle().fill(Color.white).shadow(radius: 3))
-                Spacer()
+           
             
             
         }

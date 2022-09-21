@@ -14,10 +14,16 @@ struct FavouritesList: View {
                 .font(.largeTitle)
             Spacer()
             
-            List {
-                Text("Film")
-                Text("Film 2")
+            
+            
+            Form {
+                List {
+                    Text("Film")
+                    Text("Film 2")
+                }
             }
+            
+           
             
         }
     }
