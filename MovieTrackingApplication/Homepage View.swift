@@ -14,6 +14,7 @@ struct ContentView: View {
  
         
         VStack {
+            //Button Instances in this HStack should link to a seperate screen that has all of the views
             HStack {
                 Button("☰", action : {
                 })
@@ -33,6 +34,7 @@ struct ContentView: View {
                     Text("Watchlist Section")
                         .padding(35)
                         .foregroundColor(.orange)
+                        .font(.largeTitle)
                     Spacer()
                     
                 }

@@ -24,6 +24,7 @@ struct MiniPanel: View {
                 Button("Add to watchlist", action : {
                 })
                 
+                
                 Text("User Description of films")
                 Text("Insert Trailer")
                     .fixedSize(horizontal: false, vertical: true)
