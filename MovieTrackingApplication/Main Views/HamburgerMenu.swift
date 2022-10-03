@@ -10,13 +10,17 @@ import SwiftUI
 struct HamburgerMenu: View {
     var body: some View {
         VStack {
+            Button("Return to Homepage", action: {
+            })
+            .font(.largeTitle)
             Form {
-                Button("Return to Homepage", action: {
-                })
-                .font(.largeTitle)
+
                 Button("Favourites List", action: {
                 })
                 Button("Recommended Movies", action: {
+                })
+                Button("Leave a rating", action : {
+                    
                 })
             
                 

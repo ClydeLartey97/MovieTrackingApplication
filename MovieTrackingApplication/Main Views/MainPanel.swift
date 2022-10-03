@@ -8,6 +8,12 @@
 import SwiftUI
 
 struct MainPanel: View {
+    
+    
+    
+    
+    
+    
     var body: some View {
 
         

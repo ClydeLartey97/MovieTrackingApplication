@@ -16,6 +16,11 @@ struct ContentView: View {
         VStack {
             //Button Instances in this HStack should link to a seperate screen that has all of the views
             HStack {
+                
+                
+
+                
+                
                 Button("☰", action : {
                 })
                 .font(.largeTitle)
@@ -46,7 +51,7 @@ struct ContentView: View {
                         .padding()
                         .frame(width: 400, height: 200)
                         .background(Circle().fill(Color.green).shadow(radius: 3))
-
+                    
                     
                     Text("Movie 2")
                         .fixedSize(horizontal: false, vertical: true)
@@ -54,7 +59,7 @@ struct ContentView: View {
                         .padding()
                         .frame(width: 400, height: 200)
                         .background(Circle().fill(Color.blue).shadow(radius: 3))
-
+                    
                     
                     Text("Movie 3")
                         .fixedSize(horizontal: false, vertical: true)
@@ -62,8 +67,11 @@ struct ContentView: View {
                         .padding()
                         .frame(width: 400, height: 200)
                         .background(Circle().fill(Color.red).shadow(radius: 3))
-            }
+                 
+                }
            
+                
+          
 
     
             }
