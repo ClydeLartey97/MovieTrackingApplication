@@ -24,6 +24,10 @@ struct MainView: View {
                 .tabItem {
                     Label("Recommendations", systemImage: "lightbulb")
                 }
+            SearchView()
+                .tabItem {
+                    Label("Search", systemImage: "magnifyingglass")
+                }
             
         }
     }
