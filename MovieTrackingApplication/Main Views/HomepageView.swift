@@ -1,30 +1,34 @@
 //
-//  Homepage view.swift
+//  HomepageView.swift
 //  MovieTrackingApplication
 //
-//  Created by Clyde Lartey on 14/09/2022.
+//  Created by Clyde Lartey on 04/10/2022.
 //
-
 
 import SwiftUI
 
-struct ContentView: View {
+struct HomepageView: View {
     var body: some View {
         
  
+
+        
+
+        
+        
+        
         
         VStack {
             //Button Instances in this HStack should link to a seperate screen that has all of the views
             HStack {
                 
                 
-
+  
                 
                 
-                Button("☰", action : {
+                Button("                           ", action : {
                 })
-                .font(.largeTitle)
-                .padding(47.5)
+
                 
                 Text("Homepage")
                     .font(.largeTitle)
@@ -54,7 +58,8 @@ struct ContentView: View {
                     
                     
                     Text("Movie 2")
-                        .fixedSize(horizontal: false, vertical: true)
+                        .fixedSize(
+                            horizontal: false, vertical: true)
                         .multilineTextAlignment(.center)
                         .padding()
                         .frame(width: 400, height: 200)
@@ -70,11 +75,13 @@ struct ContentView: View {
                  
                 }
            
-                
-          
 
     
             }
+            
+           
+            
+
             
             Spacer()
             Spacer()
@@ -84,8 +91,8 @@ struct ContentView: View {
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct HomepageView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        HomepageView()
     }
 }

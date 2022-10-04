@@ -12,7 +12,8 @@
 		AF5FAF3728D9BA840097EAFE /* FilmRatings.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF5FAF3628D9BA840097EAFE /* FilmRatings.swift */; };
 		AF5FAF3928D9BDB60097EAFE /* FavouritesList.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF5FAF3828D9BDB60097EAFE /* FavouritesList.swift */; };
 		AF9C46F628EB2A42001C5446 /* PanelInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF9C46F528EB2A42001C5446 /* PanelInformation.swift */; };
-		AFB1391328D1DDB400A2296E /* Homepage view.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFB1391228D1DDB400A2296E /* Homepage view.swift */; };
+		AF9D322428EC2295000B1B8D /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF9D322328EC2295000B1B8D /* MainView.swift */; };
+		AF9D322628EC2409000B1B8D /* HomepageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF9D322528EC2409000B1B8D /* HomepageView.swift */; };
 		AFB1391728D1DE2400A2296E /* RecommendMovies.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFB1391628D1DE2400A2296E /* RecommendMovies.swift */; };
 		AFF0787A28D07C3F000EE539 /* MovieTrackingApplicationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFF0787928D07C3F000EE539 /* MovieTrackingApplicationApp.swift */; };
 		AFF0787E28D07C41000EE539 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFF0787D28D07C41000EE539 /* Assets.xcassets */; };
@@ -45,7 +46,8 @@
 		AF5FAF3628D9BA840097EAFE /* FilmRatings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmRatings.swift; sourceTree = "<group>"; };
 		AF5FAF3828D9BDB60097EAFE /* FavouritesList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouritesList.swift; sourceTree = "<group>"; };
 		AF9C46F528EB2A42001C5446 /* PanelInformation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PanelInformation.swift; sourceTree = "<group>"; };
-		AFB1391228D1DDB400A2296E /* Homepage view.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Homepage view.swift"; sourceTree = "<group>"; };
+		AF9D322328EC2295000B1B8D /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		AF9D322528EC2409000B1B8D /* HomepageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomepageView.swift; sourceTree = "<group>"; };
 		AFB1391628D1DE2400A2296E /* RecommendMovies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendMovies.swift; sourceTree = "<group>"; };
 		AFF0787628D07C3F000EE539 /* MovieTrackingApplication.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MovieTrackingApplication.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFF0787928D07C3F000EE539 /* MovieTrackingApplicationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieTrackingApplicationApp.swift; sourceTree = "<group>"; };
@@ -87,11 +89,11 @@
 			isa = PBXGroup;
 			children = (
 				AFF0787928D07C3F000EE539 /* MovieTrackingApplicationApp.swift */,
-				AFB1391228D1DDB400A2296E /* Homepage view.swift */,
-				AF4AA1E428D49D3E00C63C51 /* MainPanel.swift */,
 				AF5FAF3228D9AD890097EAFE /* MiniPanel.swift */,
+				AF4AA1E428D49D3E00C63C51 /* MainPanel.swift */,
 				AF5FAF3828D9BDB60097EAFE /* FavouritesList.swift */,
 				AFB1391628D1DE2400A2296E /* RecommendMovies.swift */,
+				AF9D322528EC2409000B1B8D /* HomepageView.swift */,
 			);
 			path = "Main Views";
 			sourceTree = "<group>";
@@ -129,6 +131,7 @@
 			isa = PBXGroup;
 			children = (
 				AF9C46F328EB29FA001C5446 /* Main Views */,
+				AF9D322328EC2295000B1B8D /* MainView.swift */,
 				AFF0787D28D07C41000EE539 /* Assets.xcassets */,
 				AF9C46F428EB2A1A001C5446 /* Model */,
 				AFF0787F28D07C41000EE539 /* Preview Content */,
@@ -291,7 +294,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AFB1391328D1DDB400A2296E /* Homepage view.swift in Sources */,
+				AF9D322428EC2295000B1B8D /* MainView.swift in Sources */,
+				AF9D322628EC2409000B1B8D /* HomepageView.swift in Sources */,
 				AFB1391728D1DE2400A2296E /* RecommendMovies.swift in Sources */,
 				AF5FAF3928D9BDB60097EAFE /* FavouritesList.swift in Sources */,
 				AF5FAF3728D9BA840097EAFE /* FilmRatings.swift in Sources */,

@@ -11,7 +11,7 @@ import SwiftUI
 struct MovieTrackingApplicationApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            HomepageView()
         }
     }
 }
