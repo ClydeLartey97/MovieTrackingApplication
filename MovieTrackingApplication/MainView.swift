@@ -12,10 +12,11 @@ struct MainView: View {
         TabView {
             //tab view will allow me to have hamburger menu functionality without having to have a dedicated hamburger section in one plae for every view
             //tab view will allow the different sections to always be accessible
-            HomepageView()
+           HomepageView()
                 .tabItem {
                     Label("Home", systemImage: "house")
                 }
+            
             FavouritesList()
                 .tabItem {
                     Label("Favourites", systemImage: "list.dash")
