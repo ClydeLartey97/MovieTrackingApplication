@@ -8,14 +8,24 @@
 import SwiftUI
 
 struct StarRatings: View {
-    @State private var personalRatings: Double = 0
+    //the use of "double = 0 " allows fo rt he slider to change to the user's request rather than being specific
+    @State var personalRatings: Double = 0
     var body: some View {
+        //Slider is fully customisible to user request
         VStack {
+            
             Slider(
                 value: $personalRatings,
                 in: 0...100,
-                step: 5
-            ) }
+                step: 0.1
+            )
+            .padding(50)
+            Text("User rating is \(personalRatings)")
+
+            Spacer()
+            
+    
+        }
 
 
         }

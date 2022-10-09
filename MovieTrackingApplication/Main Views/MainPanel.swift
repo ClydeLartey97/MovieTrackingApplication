@@ -16,68 +16,75 @@ struct MainPanel: View {
     
     var body: some View {
 
-        
-        
-        VStack {
-            
-            Text("About this film")
-                .font(.largeTitle)
-                .padding(35)
-                Spacer()
-            
-            
-            Form {
-                VStack {
+        NavigationView {
+            VStack {
                 
-                    Text("Rate this film")
-                        .foregroundColor(.blue)
-                    HStack {
-                        Button("☆", action : {
-                        })
-                        Button("☆", action : {
-                        })
-                        Button("☆", action : {
-                        })
-                        Button("☆", action : {
-                        })
-                        Button("☆", action : {
-                        })
+                Text("About this film")
+                    .font(.largeTitle)
+                    .padding(35)
+                    Spacer()
+                
+                
+                Form {
+                    VStack {
+                        NavigationLink(destination: StarRatings()) {
+                            Text("                              Rate this film")
+                                .foregroundColor(.blue)
+                        }
+                        NavigationLink(destination: StarRatings()) {
+                            HStack {
+                                Button("                           ☆", action : {
+                                })
+                                Button("☆", action : {
+                                })
+                                Button("☆", action : {
+                                })
+                                Button("☆", action : {
+                                })
+                                Button("☆", action : {
+                                })
+                                
+                                
+                            }
+
+                        }
+                        
+                            
+                        Text("Insert Movie Poster and trailer")
+                            .fixedSize(horizontal: false, vertical: true)
+                            .multilineTextAlignment(.center)
+                            .padding()
+                            .frame(width: 350, height: 187.5)
+                            .background(Rectangle().fill(Color.white).shadow(radius: 3))
+                        Text("Insert Description")
+                            .fixedSize(horizontal: false, vertical: true)
+                            .multilineTextAlignment(.center)
+                            .padding()
+                            .frame(width: 350, height: 187.5)
+                            .background(Rectangle().fill(Color.white).shadow(radius: 3))
+                        Text("Insert Movie cast")
+                            .fixedSize(horizontal: false, vertical: true)
+                            .multilineTextAlignment(.center)
+                            .padding()
+                            .frame(width: 350, height: 187.5)
+                            .background(Rectangle().fill(Color.white).shadow(radius: 3))
+                            Spacer()
                         
                         
                     }
-                        
-                    Text("Insert Movie Poster and trailer")
-                        .fixedSize(horizontal: false, vertical: true)
-                        .multilineTextAlignment(.center)
-                        .padding()
-                        .frame(width: 350, height: 187.5)
-                        .background(Rectangle().fill(Color.white).shadow(radius: 3))
-                    Text("Insert Description")
-                        .fixedSize(horizontal: false, vertical: true)
-                        .multilineTextAlignment(.center)
-                        .padding()
-                        .frame(width: 350, height: 187.5)
-                        .background(Rectangle().fill(Color.white).shadow(radius: 3))
-                    Text("Insert Movie cast")
-                        .fixedSize(horizontal: false, vertical: true)
-                        .multilineTextAlignment(.center)
-                        .padding()
-                        .frame(width: 350, height: 187.5)
-                        .background(Rectangle().fill(Color.white).shadow(radius: 3))
-                        Spacer()
-                    
-                    
+                   
                 }
-               
-            }
-            
+                
 
-            
-            
-            
-            
-            
-            }
+                
+                
+                
+                
+                
+                }
+        }
+        
+    
     }
 }
 
