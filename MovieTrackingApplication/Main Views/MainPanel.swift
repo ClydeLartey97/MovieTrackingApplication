@@ -18,11 +18,7 @@ struct MainPanel: View {
 
         NavigationView {
             VStack {
-                
-                Text("About this film")
-                    .font(.largeTitle)
-                    .padding(35)
-                    Spacer()
+
                 
                 
                 Form {

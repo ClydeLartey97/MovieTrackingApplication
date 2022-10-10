@@ -11,20 +11,19 @@ struct HomepageView: View {
     var body: some View {
         
  
-        NavigationView {
+        
+        VStack {
             
-            VStack {
-                
-                //Button Instances in this HStack should link to a seperate screen that has all of the views
-                HStack {
-                    Text("                            ")
-                    Text("Homepage")
-                        .font(.largeTitle)
-                        
-                        Spacer()
-                }
-                
-
+            //Button Instances in this HStack should link to a seperate screen that has all of the views
+            HStack {
+                Text("                            ")
+                Text("Homepage")
+                    .font(.largeTitle)
+                    
+                    Spacer()
+            }
+            
+            NavigationView {
                 Form {
                     HStack {
                         Text("Watchlist Section")
@@ -35,6 +34,8 @@ struct HomepageView: View {
                         
                     }
                     
+                    
+        
                     //Movie 1,2 and 3 are placeholder movies
                     NavigationLink(destination: MainPanel()) {
                         Text("Movie 1")
@@ -74,6 +75,8 @@ struct HomepageView: View {
                
                 
         }
+            }
+           
 
         
 
@@ -89,7 +92,7 @@ struct HomepageView: View {
       
         }
     }
-}
+
 
 struct HomepageView_Previews: PreviewProvider {
     static var previews: some View {
