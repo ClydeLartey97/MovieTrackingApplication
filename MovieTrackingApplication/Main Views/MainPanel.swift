@@ -76,11 +76,7 @@ struct MainPanel: View {
                 }
                 
 
-                
-                
-                
-                
-                
+
                 }
         }
         

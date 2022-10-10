@@ -12,9 +12,7 @@ struct MiniPanel: View {
         
         VStack {
             
-            Button("Return to Homepage", action: {
-            })
-            .font(.largeTitle)
+    
 
             
             
