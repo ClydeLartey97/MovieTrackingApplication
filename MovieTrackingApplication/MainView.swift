@@ -29,6 +29,10 @@ struct MainView: View {
                   .tabItem {
                       Label("Search", systemImage: "magnifyingglass")
                   }
+            HomepageView()
+                .tabItem {
+                    Label("Home", systemImage: "house.fill")
+                }
         }
     }
 }
