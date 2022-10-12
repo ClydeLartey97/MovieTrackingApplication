@@ -11,6 +11,8 @@ struct RecommendMovies: View {
     var body: some View {
         
         
+        
+        
         VStack {
             Text("Recommend Movies")
                 .font(.largeTitle)

@@ -8,15 +8,3 @@
 import Foundation
 
 
-
-class filmRatings {
-    var rating: Int
-    
-    init () {
-        rating = 13
-    }
-    
-    
-    
-    
-}
