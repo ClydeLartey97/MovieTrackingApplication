@@ -18,6 +18,7 @@
 		AF9D322A28EC2A7C000B1B8D /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF9D322928EC2A7C000B1B8D /* SearchView.swift */; };
 		AFB1391728D1DE2400A2296E /* RecommendMovies.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFB1391628D1DE2400A2296E /* RecommendMovies.swift */; };
 		AFB2322428ED89C90001EF9B /* StateController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFB2322328ED89C90001EF9B /* StateController.swift */; };
+		AFBDB58028FDF59C00A5DC86 /* TestingFilm.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFBDB57F28FDF59C00A5DC86 /* TestingFilm.swift */; };
 		AFF0787A28D07C3F000EE539 /* MovieTrackingApplicationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFF0787928D07C3F000EE539 /* MovieTrackingApplicationApp.swift */; };
 		AFF0787E28D07C41000EE539 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFF0787D28D07C41000EE539 /* Assets.xcassets */; };
 		AFF0788128D07C41000EE539 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFF0788028D07C41000EE539 /* Preview Assets.xcassets */; };
@@ -55,6 +56,7 @@
 		AF9D322928EC2A7C000B1B8D /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
 		AFB1391628D1DE2400A2296E /* RecommendMovies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendMovies.swift; sourceTree = "<group>"; };
 		AFB2322328ED89C90001EF9B /* StateController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateController.swift; sourceTree = "<group>"; };
+		AFBDB57F28FDF59C00A5DC86 /* TestingFilm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestingFilm.swift; sourceTree = "<group>"; };
 		AFF0787628D07C3F000EE539 /* MovieTrackingApplication.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MovieTrackingApplication.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFF0787928D07C3F000EE539 /* MovieTrackingApplicationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieTrackingApplicationApp.swift; sourceTree = "<group>"; };
 		AFF0787D28D07C41000EE539 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -98,6 +100,7 @@
 				AF5FAF3228D9AD890097EAFE /* MiniPanel.swift */,
 				AF4AA1E428D49D3E00C63C51 /* MainPanel.swift */,
 				AF5FAF3828D9BDB60097EAFE /* FavouritesList.swift */,
+				AFBDB57F28FDF59C00A5DC86 /* TestingFilm.swift */,
 				AFB1391628D1DE2400A2296E /* RecommendMovies.swift */,
 				AF9D322928EC2A7C000B1B8D /* SearchView.swift */,
 				AF9D322528EC2409000B1B8D /* HomepageView.swift */,
@@ -313,6 +316,7 @@
 				AF5FAF3728D9BA840097EAFE /* FilmRatings.swift in Sources */,
 				AF9C46F628EB2A42001C5446 /* PanelInformation.swift in Sources */,
 				AF4AA1E528D49D3E00C63C51 /* MainPanel.swift in Sources */,
+				AFBDB58028FDF59C00A5DC86 /* TestingFilm.swift in Sources */,
 				AFF0787A28D07C3F000EE539 /* MovieTrackingApplicationApp.swift in Sources */,
 				AF5FAF3328D9AD890097EAFE /* MiniPanel.swift in Sources */,
 			);

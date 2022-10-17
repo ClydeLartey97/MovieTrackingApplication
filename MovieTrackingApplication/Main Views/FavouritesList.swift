@@ -9,20 +9,21 @@ import SwiftUI
 
 struct FavouritesList: View {
     var body: some View {
+
+        
         VStack {
             Text("Favourite Films list")
                 .font(.largeTitle)
+                .foregroundColor(.pink)
             Spacer()
             
             
             
-            Form {
-                List {
-                    Text("Film")
-                    Text("Film 2")
-                }
-            }
+
             
+            
+            
+ 
             
             
             
