@@ -17,7 +17,7 @@ struct HomepageView: View {
                 
                 //Button Instances in this HStack should link to a seperate screen that has all of the views
                 HStack {
-                    Text("                            ")
+                    Spacer()
                     Text("Homepage")
                         .font(.largeTitle)
                         
