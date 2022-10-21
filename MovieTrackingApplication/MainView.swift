@@ -17,6 +17,11 @@ struct MainView: View {
               //  .tabItem {
                 //    Label("Home", systemImage: "House")
                 //}
+            
+            HomepageView()
+                .tabItem {
+                    Label("Home", systemImage: "house.fill")
+                }
               FavouritesList()
                   .tabItem {
                       Label("Favourites", systemImage: "list.dash")
@@ -29,10 +34,7 @@ struct MainView: View {
                   .tabItem {
                       Label("Search", systemImage: "magnifyingglass")
                   }
-            HomepageView()
-                .tabItem {
-                    Label("Home", systemImage: "house.fill")
-                }
+           
         }
     }
 }

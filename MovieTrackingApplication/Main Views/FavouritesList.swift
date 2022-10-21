@@ -16,8 +16,7 @@ struct FavouritesList: View {
                 .font(.largeTitle)
                 .foregroundColor(.pink)
             Spacer()
-            
-            
+
             
 
             

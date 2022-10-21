@@ -9,72 +9,73 @@ import SwiftUI
 
 struct HomepageView: View {
     var body: some View {
-        
+      var favouriteFilms = [1,2,3,4,5,6,7,8,9]
  
-        
-        VStack {
+        NavigationView {
             
-            //Button Instances in this HStack should link to a seperate screen that has all of the views
-            HStack {
-                Text("                            ")
-                Text("Homepage")
-                    .font(.largeTitle)
-                    
-                    Spacer()
-            }
-            
-            NavigationView {
-                Form {
-                    HStack {
-                        Text("Watchlist Section")
-                            .padding(35)
-                            .foregroundColor(.orange)
-                            .font(.largeTitle)
-                        Spacer()
+            VStack {
+                
+                //Button Instances in this HStack should link to a seperate screen that has all of the views
+                HStack {
+                    Text("                            ")
+                    Text("Homepage")
+                        .font(.largeTitle)
                         
-                    }
-                    
-                    
-        
-                    //Movie 1,2 and 3 are placeholder movies
-                    NavigationLink(destination: MainPanel()) {
-                        Text("Movie 1")
-                            .fixedSize(horizontal: false, vertical: true)
-                            .multilineTextAlignment(.center)
-                            .padding()
-                            .frame(width: 400, height: 200)
-                            .background(Circle().fill(Color.green).shadow(radius: 3))
-                    }
-                    
-                    NavigationLink(destination: MainPanel()) {
-                        Text("Movie 2")
-                            .fixedSize(
-                                horizontal: false, vertical: true)
-                            .multilineTextAlignment(.center)
-                            .padding()
-                            .frame(width: 400, height: 200)
-                            .background(Circle().fill(Color.blue).shadow(radius: 3))
-                    }
-                    
-                    NavigationLink(destination: MainPanel()) {
-                        Text("Movie 3")
-                            .fixedSize(horizontal: false, vertical: true)
-                            .multilineTextAlignment(.center)
-                            .padding()
-                            .frame(width: 400, height: 200)
-                            .background(Circle().fill(Color.red).shadow(radius: 3))
-                     
-                    }
-                    
-
-
-
-        
+                        Spacer()
                 }
                 
-               
-                
-        }
+
+                    Form {
+                        HStack {
+                            Text("Watchlist Section")
+                                .padding(35)
+                                .foregroundColor(.orange)
+                                .font(.largeTitle)
+                            Spacer()
+                            
+                        }
+                        
+                        
+            
+                        //Movie 1,2 and 3 are placeholder movies
+                        NavigationLink(destination: MainPanel()) {
+                            Text("Movie 1")
+                                .fixedSize(horizontal: false, vertical: true)
+                                .multilineTextAlignment(.center)
+                                .padding()
+                                .frame(width: 400, height: 200)
+                                .background(Circle().fill(Color.green).shadow(radius: 3))
+                        }
+                        
+                        NavigationLink(destination: MainPanel()) {
+                            Text("Movie 2")
+                                .fixedSize(
+                                    horizontal: false, vertical: true)
+                                .multilineTextAlignment(.center)
+                                .padding()
+                                .frame(width: 400, height: 200)
+                                .background(Circle().fill(Color.blue).shadow(radius: 3))
+                        }
+                        
+                        NavigationLink(destination: MainPanel()) {
+                            Text("Movie 3")
+                                .fixedSize(horizontal: false, vertical: true)
+                                .multilineTextAlignment(.center)
+                                .padding()
+                                .frame(width: 400, height: 200)
+                                .background(Circle().fill(Color.red).shadow(radius: 3))
+                         
+                        }
+                        
+
+
+
+            
+                    }
+                    
+                   
+                    
+            }
             }
            
 
@@ -86,10 +87,7 @@ struct HomepageView: View {
    
 
             
-            Spacer()
-            Spacer()
-            Spacer()
-      
+
         }
     }
 

@@ -10,13 +10,15 @@ import SwiftUI
 struct MiniPanel: View {
     var body: some View {
         
+        
+        
         VStack {
             
     
 
             
             
-            
+        
             Form {
 
                 Button("Add to watchlist", action : {
