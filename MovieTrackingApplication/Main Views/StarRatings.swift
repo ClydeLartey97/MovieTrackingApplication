@@ -14,19 +14,43 @@ struct StarRatings: View {
         //Slider is fully customisible to user request
         VStack {
             
+            
+            
+            
             Slider(
                 value: $personalRatings,
                 in: 0...100,
                 step: 0.1
             )
             .padding(50)
-            Text("User rating is \(personalRatings)")
+            //Text("User rating is \(personalRatings)")
+
+            
+            if personalRatings < 25 {
+                Text("User Rating is \(personalRatings) out of 100")
+                    .foregroundColor(.red)
+            }
+            
+            if personalRatings < 75 && personalRatings > 25 {
+                Text("User Rating is \(personalRatings) out of 100")
+                    .foregroundColor(.yellow)
+            }
+            
+            if personalRatings > 75 {
+                Text("User Rating is \(personalRatings) out of 100")
+                    .foregroundColor(.green)
+            }
+            
+            
 
             Spacer()
             
     
         }
 
+ 
+        
+        
 
         }
                 
