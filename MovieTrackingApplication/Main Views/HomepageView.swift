@@ -9,7 +9,7 @@ import SwiftUI
 
 struct HomepageView: View {
     var body: some View {
-      var favouriteFilms = [1,2,3,4,5,6,7,8,9]
+      var favouriteFilms = ["Spider-Man: Homecoming", "Avengers: Endgame", "The Batman"]
  
         NavigationView {
             
@@ -35,11 +35,16 @@ struct HomepageView: View {
                             
                         }
                         
-                        
+                        VStack {
+                         //   ForEach(1..<9) { i in
+                           //     Text("Movie \(favouriteFilms[i])")
+                                   
+                            //}
+                        }
             
                         //Movie 1,2 and 3 are placeholder movies
                         NavigationLink(destination: MainPanel()) {
-                            Text("Movie 1")
+                            Text("\(favouriteFilms[0])")
                                 .fixedSize(horizontal: false, vertical: true)
                                 .multilineTextAlignment(.center)
                                 .padding()
@@ -48,7 +53,7 @@ struct HomepageView: View {
                         }
                         
                         NavigationLink(destination: MainPanel()) {
-                            Text("Movie 2")
+                            Text("\(favouriteFilms[1])")
                                 .fixedSize(
                                     horizontal: false, vertical: true)
                                 .multilineTextAlignment(.center)
@@ -58,7 +63,7 @@ struct HomepageView: View {
                         }
                         
                         NavigationLink(destination: MainPanel()) {
-                            Text("Movie 3")
+                            Text("\(favouriteFilms[2])")
                                 .fixedSize(horizontal: false, vertical: true)
                                 .multilineTextAlignment(.center)
                                 .padding()
@@ -68,7 +73,7 @@ struct HomepageView: View {
                         }
                         
 
-
+                        }
 
             
                     }
@@ -89,7 +94,7 @@ struct HomepageView: View {
             
 
         }
-    }
+
 
 
 struct HomepageView_Previews: PreviewProvider {

@@ -43,6 +43,8 @@ struct StarRatings: View {
             
             
 
+            
+
             Spacer()
             
     
