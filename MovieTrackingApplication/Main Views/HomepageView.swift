@@ -56,59 +56,20 @@ struct HomepageView: View {
                         
                             }
 
-                        
+                        //Forloop to allow the app to store the name of the films through an array rather than typiing it manually
                         ForEach(favouriteFilms, id: \.id) { result in
                             Text("\(result.results)")
+                                .fixedSize(horizontal: false, vertical: true)
+                                .multilineTextAlignment(.center)
+                                .padding()
+                                .frame(width: 400, height: 200)
+                                .background(Circle().fill(Color.green).shadow(radius: 3))
+
                         }
-                        
-                        
-                        
-                        
-                        
-                        
-//
-//                                    //Movie 1,2 and 3 are placeholder movies
-//                                    NavigationLink(destination: MainPanel()) {
-//                                        Text("\(favouriteFilms[0])")
-//                                            .fixedSize(horizontal: false, vertical: true)
-//                                            .multilineTextAlignment(.center)
-//                                            .padding()
-//                                            .frame(width: 400, height: 200)
-//                                            .background(Circle().fill(Color.green).shadow(radius: 3))
-//                                    }
-//
-//                                NavigationLink(destination: MainPanel()) {
-//                                       Text("\(favouriteFilms[1])")
-//                                            .fixedSize(
-//                                                horizontal: false, vertical: true)
-//                                            .multilineTextAlignment(.center)
-//                                            .padding()
-//                                            .frame(width: 400, height: 200)
-//                                            .background(Circle().fill(Color.blue).shadow(radius: 3))
-//                                    }
-//
-//                                    NavigationLink(destination: MainPanel()) {
-//                                        Text("\(favouriteFilms[2])")
-//                                            .fixedSize(horizontal: false, vertical: true)
-//                                            .multilineTextAlignment(.center)
-//                                            .padding()
-//                                            .frame(width: 400, height: 200)
-//                                            .background(Circle().fill(Color.red).shadow(radius: 3))
-//
-//                                    }
-                                    
-                        
-                        
-                        
-                        
-                        
+                 
                             
                         }
                         
-
-                        
-                     
-
 
                         }
 
