@@ -7,9 +7,27 @@
 
 import SwiftUI
 
+
+
+struct movieResults {
+    let id = UUID()
+    let results: String
+}
+
 struct HomepageView: View {
+    let  favouriteFilms = [
+        movieResults(results: "Spider-Man: No Way Home"),
+        movieResults(results: "Avengers: Endgame"),
+        movieResults(results: "The Batman")
+    
+    ]
+    
+    
+    
     var body: some View {
-      var favouriteFilms = ["Spider-Man: Homecoming", "Avengers: Endgame", "The Batman"]
+
+
+        
  
         NavigationView {
             
@@ -25,6 +43,7 @@ struct HomepageView: View {
                 }
                 
 
+
                     Form {
                         HStack {
                             Text("Watchlist Section")
@@ -33,45 +52,63 @@ struct HomepageView: View {
                                 .font(.largeTitle)
                             Spacer()
                             
+                            
+                        
+                            }
+
+                        
+                        ForEach(favouriteFilms, id: \.id) { result in
+                            Text("\(result.results)")
                         }
                         
-                        VStack {
-                         //   ForEach(1..<9) { i in
-                           //     Text("Movie \(favouriteFilms[i])")
-                                   
-                            //}
-                        }
-            
-                        //Movie 1,2 and 3 are placeholder movies
-                        NavigationLink(destination: MainPanel()) {
-                            Text("\(favouriteFilms[0])")
-                                .fixedSize(horizontal: false, vertical: true)
-                                .multilineTextAlignment(.center)
-                                .padding()
-                                .frame(width: 400, height: 200)
-                                .background(Circle().fill(Color.green).shadow(radius: 3))
+                        
+                        
+                        
+                        
+                        
+//
+//                                    //Movie 1,2 and 3 are placeholder movies
+//                                    NavigationLink(destination: MainPanel()) {
+//                                        Text("\(favouriteFilms[0])")
+//                                            .fixedSize(horizontal: false, vertical: true)
+//                                            .multilineTextAlignment(.center)
+//                                            .padding()
+//                                            .frame(width: 400, height: 200)
+//                                            .background(Circle().fill(Color.green).shadow(radius: 3))
+//                                    }
+//
+//                                NavigationLink(destination: MainPanel()) {
+//                                       Text("\(favouriteFilms[1])")
+//                                            .fixedSize(
+//                                                horizontal: false, vertical: true)
+//                                            .multilineTextAlignment(.center)
+//                                            .padding()
+//                                            .frame(width: 400, height: 200)
+//                                            .background(Circle().fill(Color.blue).shadow(radius: 3))
+//                                    }
+//
+//                                    NavigationLink(destination: MainPanel()) {
+//                                        Text("\(favouriteFilms[2])")
+//                                            .fixedSize(horizontal: false, vertical: true)
+//                                            .multilineTextAlignment(.center)
+//                                            .padding()
+//                                            .frame(width: 400, height: 200)
+//                                            .background(Circle().fill(Color.red).shadow(radius: 3))
+//
+//                                    }
+                                    
+                        
+                        
+                        
+                        
+                        
+                            
                         }
                         
-                        NavigationLink(destination: MainPanel()) {
-                            Text("\(favouriteFilms[1])")
-                                .fixedSize(
-                                    horizontal: false, vertical: true)
-                                .multilineTextAlignment(.center)
-                                .padding()
-                                .frame(width: 400, height: 200)
-                                .background(Circle().fill(Color.blue).shadow(radius: 3))
-                        }
+
                         
-                        NavigationLink(destination: MainPanel()) {
-                            Text("\(favouriteFilms[2])")
-                                .fixedSize(horizontal: false, vertical: true)
-                                .multilineTextAlignment(.center)
-                                .padding()
-                                .frame(width: 400, height: 200)
-                                .background(Circle().fill(Color.red).shadow(radius: 3))
-                         
-                        }
-                        
+                     
+
 
                         }
 
@@ -93,7 +130,7 @@ struct HomepageView: View {
 
             
 
-        }
+        
 
 
 
