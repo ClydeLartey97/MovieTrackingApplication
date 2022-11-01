@@ -15,7 +15,7 @@ struct movieResults {
 }
 
 struct HomepageView: View {
-    let  favouriteFilms = [
+    @State public var  favouriteFilms = [
         movieResults(results: "Spider-Man: No Way Home"),
         movieResults(results: "Avengers: Endgame"),
         movieResults(results: "The Batman")

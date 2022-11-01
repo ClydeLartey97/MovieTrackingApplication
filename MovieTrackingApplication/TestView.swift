@@ -19,6 +19,7 @@ struct TestView: View {
         VStack {
             ForEach(1..<6) { i in
                 Text("i is \(i)")
+                
             }
             
         }
