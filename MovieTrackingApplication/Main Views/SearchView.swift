@@ -15,8 +15,10 @@ struct SearchView: View {
      
         VStack {
             TextField("Search Films...", text: $userSearching)
+                .foregroundColor(.black)
             Spacer()
                 .multilineTextAlignment(.center)
+                
         }
     }
 }
